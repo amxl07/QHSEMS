@@ -1,0 +1,15 @@
+# Source material supplied for the build — not part of the website
+*.pptx
+PHOTO-*.jpg
+
+# Impeccable local tooling state (the design.json sidecar is kept)
+.impeccable/hook.cache.json
+.impeccable/questions/
+.impeccable/live/
+.impeccable/sketches/
+
+# OS / editor noise
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/

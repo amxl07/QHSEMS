@@ -1,0 +1,550 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-13T00:00:00Z",
+  "title": "Design System: QHSEMS Consultancy, Solutions & Training LLP",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "Deep Navy Ink",
+        "canonical": "#0E1F38",
+        "tonalRamp": [
+          "#050B15",
+          "#0A1526",
+          "#0E1F38",
+          "#16304F",
+          "#265party",
+          "#4A5C75",
+          "#8FA6C2",
+          "#E8EDF3"
+        ]
+      },
+      "crimson": {
+        "role": "primary",
+        "displayName": "Logo Crimson",
+        "canonical": "#96143C",
+        "tonalRamp": [
+          "#3D0819",
+          "#5C0C25",
+          "#7A0F31",
+          "#96143C",
+          "#BE2A57",
+          "#DC5E83",
+          "#FF8FAE",
+          "#FFEAF0"
+        ]
+      },
+      "safety": {
+        "role": "secondary",
+        "displayName": "Safety Blue",
+        "canonical": "#1C60A8",
+        "tonalRamp": [
+          "#071C31",
+          "#0E3159",
+          "#154A80",
+          "#1C60A8",
+          "#3C83CE",
+          "#8FC0F5",
+          "#C9D7E8",
+          "#EDF3FB"
+        ]
+      },
+      "health": {
+        "role": "secondary",
+        "displayName": "Health Green",
+        "canonical": "#207020",
+        "tonalRamp": [
+          "#0A2A0A",
+          "#14501A",
+          "#1A5E1A",
+          "#207020",
+          "#3D9438",
+          "#6FD07F",
+          "#A5DE72",
+          "#F1F8F1"
+        ]
+      },
+      "environ": {
+        "role": "secondary",
+        "displayName": "Environment Orange",
+        "canonical": "#EB821E",
+        "tonalRamp": [
+          "#3C2004",
+          "#6B3A06",
+          "#9E5408",
+          "#C86A12",
+          "#EB821E",
+          "#FFB25E",
+          "#FFC77A",
+          "#FFF0DC"
+        ]
+      },
+      "training": {
+        "role": "secondary",
+        "displayName": "Training Purple",
+        "canonical": "#5A1E8F",
+        "tonalRamp": [
+          "#1D0930",
+          "#34114F",
+          "#47176F",
+          "#5A1E8F",
+          "#7C3BB8",
+          "#A470DC",
+          "#C9A0F0",
+          "#F2E9FC"
+        ]
+      },
+      "leaf": {
+        "role": "tertiary",
+        "displayName": "Leaf Green",
+        "canonical": "#5B9122",
+        "tonalRamp": [
+          "#1B2D0A",
+          "#2E4D12",
+          "#42691A",
+          "#5B9122",
+          "#78B637",
+          "#9BD05E",
+          "#C0E496",
+          "#EFF7E4"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper White",
+        "canonical": "#FFFFFF",
+        "tonalRamp": [
+          "#0E1F38",
+          "#4A5C75",
+          "#8FA6C2",
+          "#BFCBD9",
+          "#D3DCE6",
+          "#E8EDF3",
+          "#F4F6F9",
+          "#FFFFFF"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Hairline Grey-Blue",
+        "canonical": "#D3DCE6",
+        "tonalRamp": [
+          "#16304F",
+          "#4A5C75",
+          "#5B6D86",
+          "#8FA6C2",
+          "#BFCBD9",
+          "#D3DCE6",
+          "#E8EDF3",
+          "#F4F6F9"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Slate Secondary Text",
+        "canonical": "#4A5C75",
+        "tonalRamp": [
+          "#0E1F38",
+          "#16304F",
+          "#33445C",
+          "#4A5C75",
+          "#5B6D86",
+          "#8FA6C2",
+          "#A9BCD4",
+          "#D3DCE6"
+        ]
+      },
+      "on-ink-mut": {
+        "role": "neutral",
+        "displayName": "On-Navy Mist",
+        "canonical": "#A9BCD4",
+        "tonalRamp": [
+          "#0E1F38",
+          "#16304F",
+          "#3B5170",
+          "#5F7A9C",
+          "#8FA6C2",
+          "#A9BCD4",
+          "#C9D7E8",
+          "#DCE7F4"
+        ]
+      },
+      "on-crimson-mut": {
+        "displayName": "On crimson",
+        "purpose": "The only muted text colour on the crimson CTA band; crimson-tinted, never neutral."
+      },
+      "print-ink": {
+        "displayName": "Print ink",
+        "purpose": "Print stylesheet only; paper gets black type."
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Page h1 only; capped at 19-20ch with text-wrap: balance."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section h2 (clamp 1.95-3rem)."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Section-level h3 (clamp 1.2-1.5rem)."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "All prose, capped at 70ch."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "The muted sentence under a heading, 64ch."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Uppercase Archivo eyebrow over a hairline; rule-labels, footer heads, credentials."
+      },
+      "code": {
+        "displayName": "Code",
+        "purpose": "Overpass Mono for programme codes, domain numbers and counts only."
+      },
+      "subtitle": {
+        "displayName": "Subtitle",
+        "purpose": "h4 at 1.0625rem Archivo 700 - card titles in tracks and footer columns."
+      },
+      "block-subhead": {
+        "displayName": "Block subhead",
+        "purpose": "h3 inside a component at 1.125rem - stage-rail items, principle headings, slide-over head."
+      },
+      "ui": {
+        "displayName": "UI",
+        "purpose": "The 0.9375rem workhorse - nav, buttons, card prose, catalogue rows, checklists. Dense content drops to this step, never to a private one."
+      },
+      "ui-small": {
+        "displayName": "UI small",
+        "purpose": "0.875rem compact controls - btn--sm, filter chips, footer baseline, validation messages."
+      },
+      "micro": {
+        "displayName": "Micro",
+        "purpose": "0.8125rem floor - breadcrumbs, field hints, credential pills, footer legal line."
+      },
+      "control": {
+        "displayName": "Control",
+        "purpose": "1rem for every input, select and textarea, so mobile browsers do not zoom on focus."
+      },
+      "numeral": {
+        "displayName": "Numeral",
+        "purpose": "Record-band figures (30+/110K+/80M+); the scale claims are typography."
+      },
+      "numeral-small": {
+        "displayName": "Numeral small",
+        "purpose": "2.25rem per-track programme counts, a half-scale echo of the record band."
+      },
+      "wordmark": {
+        "displayName": "Wordmark",
+        "purpose": "2.9rem footer secondary lockup, scoped as .footer-brand .footer-word."
+      },
+      "glyph": {
+        "displayName": "Glyph",
+        "purpose": "1.25rem for every x affordance - search clear, enquiry remove, panel close."
+      },
+      "print-body": {
+        "displayName": "Print body",
+        "purpose": "11pt, print stylesheet only."
+      },
+      "headline-sub": {
+        "displayName": "Headline sub",
+        "purpose": "One step for any h2 heading a sub-section: domain heads, lead-service head, catalogue group heads."
+      },
+      "quote": {
+        "displayName": "Quote",
+        "purpose": "Pull quote behind a 1px left rule; goals and positioning lines."
+      }
+    },
+    "shadows": [
+      {
+        "name": "resting-lift",
+        "value": "0 1px 2px rgba(14,31,56,.06), 0 2px 8px rgba(14,31,56,.05)",
+        "purpose": "Primary button at rest."
+      },
+      {
+        "name": "hover-lift",
+        "value": "0 2px 4px rgba(14,31,56,.05), 0 10px 26px rgba(14,31,56,.09)",
+        "purpose": "Primary button on hover, with translateY(-1px)."
+      },
+      {
+        "name": "overlay",
+        "value": "0 4px 8px rgba(14,31,56,.06), 0 22px 50px rgba(14,31,56,.13)",
+        "purpose": "Mobile nav drawer over page content."
+      },
+      {
+        "name": "slide-over",
+        "value": "-8px 0 24px rgba(14,31,56,.14)",
+        "purpose": "Enquiry panel entering from the right edge."
+      },
+      {
+        "name": "inset-selection",
+        "value": "inset 0 0 0 2px var(--c, var(--safety))",
+        "purpose": "Picked catalogue row; selection drawn inside so footprint never changes."
+      },
+      {
+        "name": "scrim-panel",
+        "value": "rgba(14,31,56,.45)",
+        "purpose": "Scrim behind the enquiry slide-over."
+      },
+      {
+        "name": "scrim-nav",
+        "value": "rgba(14,31,56,.5)",
+        "purpose": "Scrim behind the open mobile nav."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-house",
+        "value": "cubic-bezier(.16,.84,.28,1)",
+        "purpose": "The only easing in the system; all state transitions and panel entries."
+      },
+      {
+        "name": "state",
+        "value": "180ms",
+        "purpose": "Buttons, nav links, chips, inputs."
+      },
+      {
+        "name": "surface",
+        "value": "160ms",
+        "purpose": "Catalogue row and add-button state changes."
+      },
+      {
+        "name": "panel",
+        "value": "300ms",
+        "purpose": "Slide-over transform and scrim opacity."
+      },
+      {
+        "name": "reveal",
+        "value": "opacity .7s, transform .8s, filter .7s, delay var(--d,0ms)",
+        "purpose": "The single authored scroll reveal: opacity 0 + translateY(22px) + blur(6px), IntersectionObserver-driven, gated behind .js, neutralised under prefers-reduced-motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compress",
+        "value": "560px"
+      },
+      {
+        "name": "list-2col",
+        "value": "640px"
+      },
+      {
+        "name": "form-2col",
+        "value": "700px"
+      },
+      {
+        "name": "tracks",
+        "value": "760px"
+      },
+      {
+        "name": "record",
+        "value": "820px"
+      },
+      {
+        "name": "footer",
+        "value": "860px"
+      },
+      {
+        "name": "wide-blocks",
+        "value": "900px"
+      },
+      {
+        "name": "hero-split",
+        "value": "1000px"
+      },
+      {
+        "name": "catalogue-3col",
+        "value": "1060px"
+      },
+      {
+        "name": "nav-drawer",
+        "value": "1120px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The only crimson action on a screen; used for scope requests and enquiry sends.",
+      "html": "<a class=\"ds-btn ds-btn-primary\" href=\"#\">Request a scope <span class=\"ds-btn-arrow\" aria-hidden=\"true\">&rarr;</span></a>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:.55rem;font-family:Archivo,'Helvetica Neue',Arial,sans-serif;font-weight:700;font-size:.9375rem;letter-spacing:-.005em;padding:.9rem 1.5rem;border-radius:4px;border:1.5px solid transparent;cursor:pointer;text-decoration:none;white-space:nowrap;transition:background-color .18s cubic-bezier(.16,.84,.28,1),color .18s cubic-bezier(.16,.84,.28,1),border-color .18s cubic-bezier(.16,.84,.28,1),transform .18s cubic-bezier(.16,.84,.28,1),box-shadow .18s cubic-bezier(.16,.84,.28,1)}.ds-btn-primary{background:#96143C;color:#fff;box-shadow:0 1px 2px rgba(14,31,56,.06),0 2px 8px rgba(14,31,56,.05)}.ds-btn-primary:hover{background:#7A0F31;transform:translateY(-1px);box-shadow:0 2px 4px rgba(14,31,56,.05),0 10px 26px rgba(14,31,56,.09)}.ds-btn-primary:focus-visible{outline:3px solid #96143C;outline-offset:3px;border-radius:2px}.ds-btn-arrow{transition:transform .22s cubic-bezier(.16,.84,.28,1)}.ds-btn:hover .ds-btn-arrow{transform:translateX(3px)}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Secondary action on paper grounds; also the enquiry-list trigger in the header.",
+      "html": "<button class=\"ds-btn-ghost\" type=\"button\">Enquiry list <span class=\"ds-badge\">3</span></button>",
+      "css": ".ds-btn-ghost{display:inline-flex;align-items:center;gap:.55rem;font-family:Archivo,'Helvetica Neue',Arial,sans-serif;font-weight:700;font-size:.875rem;padding:.6rem .95rem;border-radius:4px;border:1.5px solid #BFCBD9;background:#fff;color:#0E1F38;cursor:pointer;transition:border-color .18s cubic-bezier(.16,.84,.28,1),background-color .18s cubic-bezier(.16,.84,.28,1)}.ds-btn-ghost:hover{border-color:#0E1F38;background:#F4F6F9}.ds-btn-ghost:focus-visible{outline:3px solid #96143C;outline-offset:3px}.ds-badge{display:inline-grid;place-items:center;min-width:1.35rem;height:1.35rem;padding:0 .35rem;border-radius:999px;background:#96143C;color:#fff;font-size:.75rem;font-family:'Overpass Mono',ui-monospace,Consolas,monospace}"
+    },
+    {
+      "name": "On-Ink Button",
+      "kind": "button",
+      "refersTo": "button-on-ink",
+      "description": "Secondary action on navy bands: hero, page heads, CTA.",
+      "html": "<div class=\"ds-onink-stage\"><a class=\"ds-btn-onink\" href=\"#\">Browse 108 training programmes</a></div>",
+      "css": ".ds-onink-stage{background:#0E1F38;padding:2rem}.ds-btn-onink{display:inline-flex;align-items:center;font-family:Archivo,'Helvetica Neue',Arial,sans-serif;font-weight:700;font-size:.9375rem;padding:.9rem 1.5rem;border-radius:4px;border:1.5px solid rgba(255,255,255,.42);color:#fff;background:transparent;text-decoration:none;transition:background-color .18s cubic-bezier(.16,.84,.28,1),border-color .18s cubic-bezier(.16,.84,.28,1)}.ds-btn-onink:hover{background:rgba(255,255,255,.1);border-color:#fff}.ds-btn-onink:focus-visible{outline:3px solid #96143C;outline-offset:3px}"
+    },
+    {
+      "name": "Filter Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Catalogue track filter; selected state inverts to solid ink. Count always shown in mono.",
+      "html": "<div class=\"ds-chips\"><button class=\"ds-chip\" type=\"button\" aria-pressed=\"true\">All <span class=\"ds-chip-n\">108</span></button><button class=\"ds-chip\" type=\"button\" aria-pressed=\"false\">Corporate <span class=\"ds-chip-n\">32</span></button><button class=\"ds-chip\" type=\"button\" aria-pressed=\"false\">Craft <span class=\"ds-chip-n\">23</span></button></div>",
+      "css": ".ds-chips{display:flex;flex-wrap:wrap;gap:.4rem}.ds-chip{font-family:Archivo,'Helvetica Neue',Arial,sans-serif;font-weight:700;font-size:.875rem;padding:.65rem .95rem;border-radius:4px;border:1.5px solid #BFCBD9;background:#fff;color:#0E1F38;cursor:pointer;white-space:nowrap;transition:background-color .18s cubic-bezier(.16,.84,.28,1),color .18s cubic-bezier(.16,.84,.28,1),border-color .18s cubic-bezier(.16,.84,.28,1)}.ds-chip:hover{border-color:#0E1F38}.ds-chip[aria-pressed=\"true\"]{background:#0E1F38;border-color:#0E1F38;color:#fff}.ds-chip:focus-visible{outline:3px solid #96143C;outline-offset:3px}.ds-chip-n{font-family:'Overpass Mono',ui-monospace,Consolas,monospace;font-size:.75rem;opacity:.6;margin-left:.4rem}"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Catalogue search in the sticky filter bar; inline SVG magnifier, safety-blue focus border.",
+      "html": "<div class=\"ds-search\"><svg class=\"ds-search-icon\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><circle cx=\"11\" cy=\"11\" r=\"7\"/><path d=\"M20 20l-3.5-3.5\"/></svg><input type=\"search\" placeholder=\"Search: confined space, LOTO, rigging, H2S, PPE&hellip;\" aria-label=\"Search programmes\"></div>",
+      "css": ".ds-search{position:relative;max-width:24rem}.ds-search input{width:100%;font-family:'Source Sans 3','Segoe UI',system-ui,sans-serif;font-size:1rem;padding:.8rem 2.5rem .8rem 2.6rem;border:1.5px solid #BFCBD9;border-radius:4px;background:#fff;color:#0E1F38}.ds-search input::placeholder{color:#5B6D86}.ds-search input:focus{border-color:#1C60A8}.ds-search input:focus-visible{outline:3px solid #96143C;outline-offset:3px}.ds-search-icon{position:absolute;left:.85rem;top:50%;transform:translateY(-50%);color:#5B6D86;pointer-events:none}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Enquiry form control with Archivo label, optional hint, and crimson error state.",
+      "html": "<div class=\"ds-field\"><label for=\"ds-org\">Organisation</label><span class=\"ds-hint\">Legal entity name is fine.</span><input id=\"ds-org\" type=\"text\"></div>",
+      "css": ".ds-field{display:flex;flex-direction:column;gap:.35rem;max-width:24rem}.ds-field label{font-family:Archivo,'Helvetica Neue',Arial,sans-serif;font-weight:700;font-size:.875rem;color:#0E1F38}.ds-hint{font-size:.8125rem;color:#5B6D86;font-family:'Source Sans 3','Segoe UI',system-ui,sans-serif}.ds-field input{font-family:'Source Sans 3','Segoe UI',system-ui,sans-serif;font-size:1rem;color:#0E1F38;padding:.8rem .9rem;border:1.5px solid #BFCBD9;border-radius:4px;background:#fff;width:100%}.ds-field input:focus{border-color:#1C60A8}.ds-field input:focus-visible{outline:3px solid #96143C;outline-offset:3px}"
+    },
+    {
+      "name": "Catalogue Row",
+      "kind": "custom",
+      "refersTo": "programme-row",
+      "description": "The signature component: mono code, programme name, circular add button; picked state is an inset ring in the group colour.",
+      "html": "<ul class=\"ds-cat-list\"><li class=\"ds-prog\"><span class=\"ds-prog-code\">COR-01</span><span class=\"ds-prog-name\">QHSE Orientation Programmes</span><button class=\"ds-prog-add\" type=\"button\" aria-pressed=\"false\" aria-label=\"Add to enquiry list\"><span aria-hidden=\"true\">+</span></button></li><li class=\"ds-prog ds-is-picked\"><span class=\"ds-prog-code\">COR-02</span><span class=\"ds-prog-name\">Right Start Programmes</span><button class=\"ds-prog-add\" type=\"button\" aria-pressed=\"true\" aria-label=\"Remove from enquiry list\"><span aria-hidden=\"true\">+</span></button></li></ul>",
+      "css": ".ds-cat-list{list-style:none;margin:0;padding:0;display:grid;gap:.5rem;--c:#1C60A8}.ds-prog{margin:0;display:flex;align-items:flex-start;gap:.7rem;padding:.75rem .85rem;border:1px solid #D3DCE6;border-radius:4px;background:#fff;font-family:'Source Sans 3','Segoe UI',system-ui,sans-serif;font-size:.9375rem;line-height:1.4;color:#0E1F38;transition:border-color .16s cubic-bezier(.16,.84,.28,1),background-color .16s cubic-bezier(.16,.84,.28,1)}.ds-prog:hover{border-color:#BFCBD9;background:#F4F6F9}.ds-prog.ds-is-picked{background:#fff;box-shadow:inset 0 0 0 2px var(--c);border-color:transparent}.ds-prog-code{font-family:'Overpass Mono',ui-monospace,Consolas,monospace;font-size:.75rem;color:#5B6D86;padding-top:.18rem;flex:0 0 auto}.ds-prog-name{flex:1}.ds-prog-add{flex:0 0 auto;width:26px;height:26px;border-radius:50%;border:1.5px solid #BFCBD9;background:#fff;color:#4A5C75;cursor:pointer;display:grid;place-items:center;padding:0;font-size:1rem;line-height:1;transition:background-color .16s cubic-bezier(.16,.84,.28,1),color .16s cubic-bezier(.16,.84,.28,1),border-color .16s cubic-bezier(.16,.84,.28,1)}.ds-prog-add:hover{border-color:#0E1F38;color:#0E1F38}.ds-prog-add:focus-visible{outline:3px solid #96143C;outline-offset:3px}.ds-is-picked .ds-prog-add{background:var(--c);border-color:var(--c);color:#fff}"
+    },
+    {
+      "name": "Service-Line Card",
+      "kind": "card",
+      "refersTo": "programme-row",
+      "description": "Linked track card: 3px pillar-coded top border, hairline box, no shadow; hover darkens the border and lifts the card.",
+      "html": "<a class=\"ds-track\" href=\"#\"><span class=\"ds-track-n\">23 <small>programmes</small></span><h4>Craft &amp; skills</h4><p>Rigging, scaffolding, welding, electrical and confined-space craft competency, assessed on the tools.</p><span class=\"ds-track-go\">See the programmes <span class=\"ds-track-arrow\" aria-hidden=\"true\">&rarr;</span></span></a>",
+      "css": ".ds-track{--c:#5A1E8F;display:flex;flex-direction:column;max-width:22rem;padding:1.5rem;background:#fff;border:1px solid #D3DCE6;border-top:3px solid var(--c);text-decoration:none;color:#0E1F38;font-family:'Source Sans 3','Segoe UI',system-ui,sans-serif;transition:border-color .2s cubic-bezier(.16,.84,.28,1),transform .2s cubic-bezier(.16,.84,.28,1)}.ds-track:hover{border-color:#0E1F38;border-top-color:var(--c);transform:translateY(-3px)}.ds-track:focus-visible{outline:3px solid #96143C;outline-offset:3px}.ds-track-n{font-family:Archivo,'Helvetica Neue',Arial,sans-serif;font-weight:800;font-size:2.25rem;line-height:1;letter-spacing:-.04em;margin-bottom:.4rem;color:var(--c)}.ds-track-n small{font-size:.75rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-left:.5rem;color:#5B6D86}.ds-track h4{font-family:Archivo,'Helvetica Neue',Arial,sans-serif;font-weight:700;font-size:1.0625rem;line-height:1.3;letter-spacing:-.01em;margin:0 0 .4rem}.ds-track p{font-size:.9375rem;color:#4A5C75;margin:0 0 1.1rem;line-height:1.65}.ds-track-go{font-family:Archivo,'Helvetica Neue',Arial,sans-serif;font-weight:700;font-size:.875rem;color:#96143C;display:inline-flex;gap:.4rem;align-items:center}.ds-track:hover .ds-track-arrow{transform:translateX(3px)}.ds-track-arrow{transition:transform .22s cubic-bezier(.16,.84,.28,1)}"
+    },
+    {
+      "name": "Primary Navigation",
+      "kind": "nav",
+      "refersTo": "button-ghost",
+      "description": "Sticky 84px white header bar; current page is crimson with a 2px underline.",
+      "html": "<header class=\"ds-header\"><nav class=\"ds-nav\" aria-label=\"Primary\"><a href=\"#\" aria-current=\"page\">Home</a><a href=\"#\">About</a><a href=\"#\">Consultancy</a><a href=\"#\">Training &amp; Competency</a><a href=\"#\">Contact</a></nav></header>",
+      "css": ".ds-header{background:#fff;border-bottom:1px solid #D3DCE6;min-height:84px;display:flex;align-items:center;padding:0 1.5rem}.ds-nav{display:flex;align-items:center;gap:.15rem}.ds-nav a{font-family:Archivo,'Helvetica Neue',Arial,sans-serif;font-weight:600;font-size:.9375rem;color:#0E1F38;text-decoration:none;padding:.6rem .75rem;border-radius:4px;letter-spacing:-.005em;white-space:nowrap;transition:color .18s cubic-bezier(.16,.84,.28,1),background-color .18s cubic-bezier(.16,.84,.28,1)}.ds-nav a:hover{background:#F4F6F9;color:#96143C}.ds-nav a:focus-visible{outline:3px solid #96143C;outline-offset:3px}.ds-nav a[aria-current=\"page\"]{color:#96143C}.ds-nav a[aria-current=\"page\"]::after{content:\"\";display:block;height:2px;background:#96143C;margin-top:.3rem;border-radius:2px}"
+    },
+    {
+      "name": "Record Band",
+      "kind": "custom",
+      "refersTo": "programme-row",
+      "description": "Scale claims set as tabular Archivo numerals across a 2px rule with hairline dividers; each figure takes a different accent.",
+      "html": "<div class=\"ds-record\"><div class=\"ds-record-item\"><span class=\"ds-record-n\">30+</span><p>Years delivering QHSE systems and competency on live industrial sites.</p></div><div class=\"ds-record-item\"><span class=\"ds-record-n\">110K+</span><p>Professionals trained across petrochemicals, construction and energy.</p></div><div class=\"ds-record-item\"><span class=\"ds-record-n\">80M+</span><p>Safe manhours supported on client projects.</p></div></div>",
+      "css": ".ds-record{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:2px solid #0E1F38;font-family:'Source Sans 3','Segoe UI',system-ui,sans-serif}.ds-record-item{padding:2rem 1.5rem 1.6rem;border-right:1px solid #D3DCE6}.ds-record-item:first-child{padding-left:0}.ds-record-item:last-child{border-right:none;padding-right:0}.ds-record-n{font-family:Archivo,'Helvetica Neue',Arial,sans-serif;font-weight:800;font-size:3.6rem;line-height:.94;letter-spacing:-.04em;display:block;margin-bottom:.5rem;font-variant-numeric:tabular-nums}.ds-record-item:nth-child(1) .ds-record-n{color:#96143C}.ds-record-item:nth-child(2) .ds-record-n{color:#1C60A8}.ds-record-item:nth-child(3) .ds-record-n{color:#207020}.ds-record-item p{margin:0;font-size:.9875rem;color:#4A5C75;max-width:34ch;line-height:1.65}"
+    },
+    {
+      "name": "Section Label",
+      "kind": "custom",
+      "refersTo": "chip",
+      "description": "The uppercase Archivo eyebrow over a hairline that opens most content blocks; inverts on navy.",
+      "html": "<span class=\"ds-rule-label\">Seven domains &middot; 75 capabilities</span>",
+      "css": ".ds-rule-label{font-family:Archivo,'Helvetica Neue',Arial,sans-serif;font-size:.75rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#5B6D86;margin:0 0 1.5rem;padding-bottom:.7rem;border-bottom:1px solid #D3DCE6;display:block}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Site-Office Document",
+    "overview": "This is a printed technical document taught to behave like a website. Everything is set on white paper, divided by hairlines rather than boxes, and interrupted at intervals by a solid navy band — the way a standards manual alternates body pages with section dividers. Nothing floats. Content blocks have a stroke and a ground; they do not have a shadow, because a capability list is not a physical object you could pick up. Depth exists only where something genuinely moves.\n\nDensity is the argument. The catalogue shows 108 named programmes and 75 named consultancy capabilities in full, in scannable rows with monospaced codes, instead of summarising them into three icon cards. That refusal is the system's centre of gravity: where a category site abstracts, this one enumerates, and the layout is tuned to make long enumerations legible — two- and three-column row grids, hairline separators, right-aligned counts, and a sticky filter bar so the list stays navigable at length.\n\nThe palette is not chosen, it is sampled: every hue is pulled from the client's logo lockup, and the four pillars (Health green, Safety blue, Environment orange, Training purple) do real work as a coding system rather than decoration. Crimson is the only action colour, and it is rationed. There is no photography anywhere on the site; the hero's process-plant elevation is authored inline SVG line art, and the illustrative register is strictly line, never fill.",
+    "keyCharacteristics": [
+      "Logo-sampled palette; navy ground bands, crimson action, four pillar hues as coding",
+      "Archivo 800 display against Source Sans 3 body, Overpass Mono for codes and counts",
+      "Hairlines and rules instead of card shadows on content",
+      "4px radius almost everywhere; near-square, document-like",
+      "Enumeration over summary: full lists, monospaced codes, visible counts",
+      "Authored line-art SVG only; no photography",
+      "One authored motion moment (staggered reveal), reduced-motion honoured"
+    ],
+    "rules": [
+      {
+        "name": "The Sampled-Palette Rule",
+        "body": "Every hue traces to the logo lockup. A new colour is not invented; it is either an existing token or a legibility-corrected variant of one, and the correction is named as such (environ-ink for Environment orange as text).",
+        "section": "colors"
+      },
+      {
+        "name": "The One Action Rule",
+        "body": "Crimson is the site's only action colour. If an element is crimson it can be clicked, is currently selected, or has failed validation. Pillar colours never become buttons; crimson never becomes a category.",
+        "section": "colors"
+      },
+      {
+        "name": "The Local Accent Rule",
+        "body": "Pillar colour is set on the block via --c and read downstream as var(--c, var(--safety)). Never hard-code a pillar hue inside a component — it removes the block's ability to be recoloured.",
+        "section": "colors"
+      },
+      {
+        "name": "The On-Navy Lift Rule",
+        "body": "Saturated hues do not survive the navy ground unlifted. On dark bands the record numerals and pillar dots switch to their lifted tints (#FF8FAE, #8FC0F5, #A5DE72, #6FD07F, #7FB6F0, #FFB25E, #C9A0F0), and the hero's emphasis word uses amber #FFC77A. Light passage and dark passage each get their own version of the same colour.",
+        "section": "colors"
+      },
+      {
+        "name": "The Evidence Mono Rule",
+        "body": "Overpass Mono is reserved for machine-ish facts — a programme code, a domain number, a count. It never sets a sentence, a label, or a heading.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tight Display Rule",
+        "body": "Archivo headings run 700–800 with negative tracking (-0.028em, tightening to -0.04em on numerals) and line-height at or below 1.2. Display type is compressed; body type is not. Do not set a heading in Source Sans 3.",
+        "section": "typography"
+      },
+      {
+        "name": "The Count-Is-Visible Rule",
+        "body": "Wherever a list is grouped, filtered or truncated, its length is stated in type next to its name (\"Seven domains · 75 capabilities\", \"All 108\"). The number is the product claim.",
+        "section": "typography"
+      },
+      {
+        "name": "The Band Rule",
+        "body": "Vertical structure comes from alternating full-bleed grounds — paper, surface tint, navy — not from boxing content. A new section changes its ground and its padding; it does not get a bordered container around the whole thing.",
+        "section": "layout"
+      },
+      {
+        "name": "The Hairline Rule",
+        "body": "Separation is a 1px line in the line token (or rule-ink on navy). Rows, domains, contact blocks, footer bottom and section heads all divide this way. Heavier strokes are reserved and meaningful: 2px for a coded group head, 3px for a pillar-coded block edge, 1.5px for an interactive edge.",
+        "section": "layout"
+      },
+      {
+        "name": "The Moving-Surface Rule",
+        "body": "A shadow means the surface can move or sits above the page. Buttons, the nav drawer and the slide-over panel get one. A card, a list row, a domain block or a band does not — those use a 1px stroke and a ground change instead.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Inset-Selection Rule",
+        "body": "Selected state is drawn inside the box, not under it: a picked programme row uses box-shadow: inset 0 0 0 2px var(--c, var(--safety)) with a transparent border, so selection never changes the row's footprint or the list's rhythm.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do separate with hairlines — 1px line on paper, rule-ink on navy — and reserve 2px/3px strokes for coded group heads and pillar-coded block edges.",
+      "Do set pillar colour on the block as an inline --c and read it as var(--c, var(--safety)) inside components.",
+      "Do switch to the lifted on-navy tints and the on-navy grey set whenever content sits on an ink band.",
+      "Do use environ-ink whenever Environment orange needs to be text on white.",
+      "Do state list length in type wherever a list is grouped or filtered.",
+      "Do keep motion to the single staggered reveal (opacity + translateY(22px) + blur(6px), .7–.8s on cubic-bezier(.16,.84,.28,1), per-item delay via --d), gate it behind the .js class so content is visible without JS, and neutralise it under prefers-reduced-motion.",
+      "Do keep form controls at 1rem or larger and pair the safety-blue focus border with the global 3px crimson focus ring.",
+      "Do scope footer-brand typography with descendant selectors (.footer-brand p, .footer-brand .footer-word); a bare class loses to .footer-brand p on specificity."
+    ],
+    "donts": [
+      "Don't put a shadow on a content surface — cards, rows, domain blocks, bands. Shadows belong to buttons, the nav drawer and the slide-over only.",
+      "Don't introduce a colour that isn't sampled from the logo or a named legibility correction of one.",
+      "Don't let a pillar colour become an action, or crimson become a category.",
+      "Don't use photography or filled illustration; illustration is authored line-art SVG.",
+      "Don't set Overpass Mono on anything that isn't a code, a number or a count.",
+      "Don't place the header logo image on the navy footer — its subtitle is black and its emblem navy, neither of which survives; use the typeset .footer-word lockup instead.",
+      "Don't change a selected element's footprint; draw selection inset (inset 0 0 0 2px) so list rhythm holds.",
+      "Don't exceed the radius vocabulary: 4px for controls and cards, 2px for micro-marks, full circles for small round tokens."
+    ]
+  }
+}
