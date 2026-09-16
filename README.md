@@ -21,25 +21,22 @@ DESIGN.md           The design system as built
 
 ---
 
-## 1. Replace the placeholder contact details (5 minutes)
+## 1. Contact details
 
-Every placeholder is tagged `data-placeholder="…"` in the HTML. Find and replace these
-four strings across all five `.html` files:
+These are live across all five pages:
 
-| Find | Replace with | Occurrences |
-|---|---|---|
-| `info@qhsems.com` | real email | 14 (incl. `mailto:` links and the form's `data-mailto`) |
-| `+00 0000 000 000` | real phone, display form | 5 |
-| `+000000000000` | real phone, `tel:` form (digits and `+` only) | 5 |
-| `Registered office address` / `to be confirmed` | real postal address | 5 |
+| | |
+|---|---|
+| Email | `sureshkumar.ehs@gmail.com` — footer, contact page, and the form's `data-mailto` |
+| Phone | `+91 97787 21294`, dialling as `tel:+919778721294` |
+| Address | Bhavesh House, Aiswariya Avenue, Pirivusala, Chandranagar (Post), Palakkad 678007, Kerala |
 
-Working hours on `contact.html` read "Office hours to be confirmed"
-(`data-placeholder="hours"`) — no working week was supplied, so none was invented.
-
-Quick check afterwards:
+**One placeholder remains.** Working hours on `contact.html` read "Office hours to be
+confirmed" and carry `data-placeholder="hours"`. No working week was supplied, so none
+was invented. Replace that line and drop the attribute when you know it.
 
 ```bash
-grep -rn "data-placeholder" *.html     # every remaining placeholder
+grep -rn "data-placeholder" *.html     # what is still unconfirmed
 ```
 
 ## 2. Things deliberately left out because they were not confirmed

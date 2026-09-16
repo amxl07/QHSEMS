@@ -39,7 +39,9 @@ Training approach: Theory → Practical → Demonstration → Case Studies → S
 
 Terminology to keep exact: QHSE, HSE, TRA, JSA, JHA, PTW, LOTO, RCA, BBS, HAZOP, HAZMAT, HAZCOM, SCBA, H2S, SIMOPS.
 
-Undecided / not supplied: legal registered address, phone, email, working hours, social profiles, team names and bios, client logos, case studies, photography of actual delivery, course durations, pricing, certificate/validity terms, downloadable brochure PDF. None of these may be invented. Contact values ship as clearly marked placeholders in one config location.
+Confirmed contact details: sureshkumar.ehs@gmail.com; +91 97787 21294; Bhavesh House, Aiswariya Avenue, Pirivusala, Chandranagar (Post), Palakkad 678007, Kerala, India. The registered address places the LLP in India.
+
+Undecided / not supplied: working hours, social profiles, team names and bios, client logos, case studies, photography of actual delivery, course durations, pricing, certificate/validity terms, downloadable brochure PDF. None of these may be invented.
 
 ## Brand Commitments
 
