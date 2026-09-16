@@ -50,11 +50,18 @@ version of them appears anywhere:
 - staff names, photographs, team bios
 - a downloadable brochure PDF
 
-**The credentials strip** (`ISO 45001 / ISO 14001 / ISO 9001 / NEBOSH / IOSH / OSHA`)
-is labelled *"Standards & awarding bodies we work to"* — a claim about the standards the
-work references. If QHSEMS holds formal **approved-provider** status with any of them,
-say so explicitly and add the approval number; that is a much stronger claim and it
-needs to be accurate.
+**The credentials strip** is now the six awarding-body logos supplied on 2026-09-16:
+ISO, MEDIC First Aid, IOSH (approved training provider 5235), Scaffold Training
+Institute, HSI, and the American Safety & Health Institute. They live in
+`assets/img/cred-*.png`, cut from the supplied artwork and normalised to one optical
+height. It appears on the home hero and the About page.
+
+Note that **NEBOSH and OSHA are no longer shown** — they were in the earlier text-only
+strip but are not among the supplied logos. Say the word if either should come back.
+
+To add or swap a mark: drop a PNG into `assets/img/`, matted on white at roughly 120px
+tall with even padding, then add an `<li>` to the `.cred-logos` list in `index.html` and
+`about.html`.
 
 ## 3. The logo on dark backgrounds
 

@@ -258,6 +258,10 @@
       "quote": {
         "displayName": "Quote",
         "purpose": "Pull quote behind a 1px left rule; goals and positioning lines."
+      },
+      "display-hero": {
+        "displayName": "Display hero",
+        "purpose": "The home hero h1 only, one step below interior Display because it carries a full sentence."
       }
     },
     "shadows": [
@@ -455,6 +459,13 @@
       "description": "The uppercase Archivo eyebrow over a hairline that opens most content blocks; inverts on navy.",
       "html": "<span class=\"ds-rule-label\">Seven domains &middot; 75 capabilities</span>",
       "css": ".ds-rule-label{font-family:Archivo,'Helvetica Neue',Arial,sans-serif;font-size:.75rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#5B6D86;margin:0 0 1.5rem;padding-bottom:.7rem;border-bottom:1px solid #D3DCE6;display:block}"
+    },
+    {
+      "name": "Credential Mark",
+      "kind": "media",
+      "refersTo": "credential-mark",
+      "description": "An awarding body shown as artwork rather than set as type. Each PNG is matted on white and optically normalised to a common ink height, so six aspect ratios read as one row.",
+      "html": "<ul class=\"cred-logos\"><li><img src=\"assets/img/cred-iso.png\" alt=\"ISO — International Organization for Standardization\" width=\"142\" height=\"120\"></li></ul>"
     }
   ],
   "narrative": {

@@ -206,7 +206,7 @@ strong{ font-weight:600; }
   position:relative; overflow:hidden;
   background:var(--ink);
   color:#fff;
-  padding-block:clamp(2.25rem,4vw,3.25rem) clamp(2.25rem,3.5vw,3rem);
+  padding-block:clamp(2rem,3.4vw,2.75rem) clamp(2.25rem,3.5vw,3rem);
 }
 .hero::before{
   content:""; position:absolute; inset:0;
@@ -217,14 +217,14 @@ strong{ font-weight:600; }
 }
 .hero__inner{ position:relative; z-index:1; display:grid; gap:clamp(2rem,4vw,3.5rem); align-items:center; }
 @media (min-width:1000px){ .hero__inner{ grid-template-columns:1.06fr .94fr; } }
-.hero h1{ color:#fff; margin-bottom:.42em; max-width:19ch; }
+.hero h1{ color:#fff; font-size:clamp(2.2rem,3.6vw,3.05rem); margin-bottom:.45em; max-width:28ch; }
 .hero h1 em{ font-style:normal; color:#FFC77A; }
-.hero__sub{ font-size:clamp(1.0625rem,1.5vw,1.25rem); line-height:1.6; color:#C9D7E8; max-width:56ch; margin-bottom:2rem; }
+.hero__sub{ font-size:clamp(1rem,1.35vw,1.1875rem); line-height:1.6; color:#C9D7E8; max-width:66ch; margin-bottom:1.75rem; }
 .hero__sub strong{ color:#fff; font-weight:600; }
 .hero__actions{ display:flex; flex-wrap:wrap; gap:.85rem; }
 .hero__art{ position:relative; }
 .hero__art svg{ width:100%; height:auto; }
-.hero__cred{ position:relative; z-index:1; margin-top:clamp(1.25rem,2.4vw,1.75rem); }
+.hero__cred{ position:relative; z-index:1; margin-top:clamp(1rem,2vw,1.4rem); }
 
 .credentials{
   border-top:1px solid var(--rule-ink);
@@ -236,11 +236,15 @@ strong{ font-weight:600; }
   letter-spacing:.14em; text-transform:uppercase; color:var(--on-ink-mut);
 }
 .credentials ul{ display:flex; flex-wrap:wrap; gap:.5rem; list-style:none; margin:0; padding:0; }
-.credentials li{
-  font-family:var(--display); font-size:.8125rem; font-weight:600;
-  letter-spacing:.02em; color:#DCE7F4;
-  border:1px solid var(--rule-ink); border-radius:2px; padding:.35rem .7rem;
-  margin:0;
+.credentials li{ margin:0; }
+
+/* credential marks: one white tile per awarding body, on light ground or navy */
+.cred-logos{ display:flex; flex-wrap:wrap; align-items:center; gap:.5rem; list-style:none; margin:0; padding:0; }
+.cred-logos li{ margin:0; }
+.cred-logos img{
+  display:block; height:clamp(48px,5vw,64px); width:auto;
+  border-radius:var(--radius);
+  border:1px solid rgba(14,31,56,.12);
 }
 
 /* ---------- record band (real numbers) ---------- */

@@ -8,7 +8,7 @@ web
 
 ## Users
 
-Primary: corporate and project decision-makers who buy HSE capability — HSE managers and directors, project/construction managers, plant and operations managers, contractor HSE leads, and procurement/tender teams at petrochemical, oil & gas, heavy chemical manufacturing, construction, commissioning/start-up energy and healthcare organisations. Their situation: a live project, an audit finding, a tender requirement, a regulator or client HSE clause, or an incident — they need a competent partner who can produce the system, the documentation and the trained people, and who can start on site.
+Primary: corporate and project decision-makers who buy HSE capability — HSE managers and directors, project/construction managers, plant and operations managers, contractor HSE leads, and procurement/tender teams at petrochemical, oil & gas, heavy chemical and other manufacturing, construction, commissioning, energy, warehousing and healthcare organisations. Their situation: a live project, an audit finding, a tender requirement, a regulator or client HSE clause, or an incident — they need a competent partner who can produce the system, the documentation and the trained people, and who can start on site.
 
 Secondary (browse, do not convert): the workforce those clients send to training — supervisors, operators, drivers, riggers, technicians, welders, electricians — and individual HSE officers researching the provider before a corporate booking.
 
@@ -57,10 +57,11 @@ Real and usable:
 - 30+ years of practical QHSE experience.
 - 110,000+ professionals trained worldwide.
 - 80,000,000+ hours of training delivered.
-- Industries served: petrochemicals, oil & gas, heavy chemical manufacturing, construction, commissioning & start-up energy, healthcare and other high-risk industries.
+- Industries served (revised 2026-09-16): petrochemicals, oil & gas, heavy chemical and other manufacturing, construction, commissioning, energy, warehousing, healthcare and other high-risk industries. Warehousing is new; "start-up energy" is now simply energy.
 - Full verbatim service, training and competency catalogues from the company profile — 75 consultancy capabilities and 108 training programmes, 183 in total — the deepest real proof asset available, and it should be shown, not summarised away.
 - Stated vision, mission, seven-stage approach and six core principles.
-- Confirmed by the client: consultancy and training reference ISO 9001 / ISO 14001 / ISO 45001 management-system standards, and NEBOSH / IOSH / OSHA programme credentials. Display as a credentials line; exact approval numbers and awarding-body logos were not supplied and must not be invented or reproduced.
+- Confirmed by the client, with logo artwork supplied (2026-09-16): ISO; MEDIC First Aid (an HSI company); IOSH, approved training provider **5235**; Scaffold Training Institute; HSI (Health & Safety Institute); American Safety & Health Institute (an HSI company). These six marks are the credentials strip. The IOSH provider number is the one concrete approval reference on hand and may be stated.
+- Superseded: an earlier text-only strip listed ISO 45001 / ISO 14001 / ISO 9001 / NEBOSH / IOSH / OSHA. NEBOSH and OSHA are not among the supplied marks and no longer appear; confirm before reinstating either.
 
 Absent and not to be fabricated: named clients, testimonials, case studies, pass rates, pricing, accreditation certificate numbers, office photography, staff names.
 

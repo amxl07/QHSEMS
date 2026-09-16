@@ -50,6 +50,12 @@ typography:
     fontWeight: 400
     lineHeight: 1.65
     letterSpacing: "normal"
+  display-hero:
+    fontFamily: "Archivo, Helvetica Neue, Arial, sans-serif"
+    fontSize: "clamp(2.2rem, 3.6vw, 3.05rem)"
+    fontWeight: 800
+    lineHeight: 1.06
+    letterSpacing: "-0.028em"
   headline-sub:
     fontFamily: "Archivo, Helvetica Neue, Arial, sans-serif"
     fontSize: "clamp(1.5rem, 2.4vw, 2rem)"
@@ -261,6 +267,7 @@ A block's `--c` is not restricted to the four pillars — navy, crimson and leaf
 
 ### Hierarchy
 - **Display** (800, `clamp(2.35rem, 4.4vw, 3.7rem)`, 1.06, `-0.028em`): page h1 only. Capped at 19–20ch with `text-wrap: balance`.
+- **Display hero** (800, `clamp(2.2rem, 3.6vw, 3.05rem)`, 1.06, 28ch): the home hero's h1 only. A step below the interior Display because the hero headline is a full sentence rather than a phrase; it holds three lines at desktop width.
 - **Headline** (800, `clamp(1.95rem, 3.5vw, 3rem)`, 1.06): section h2.
 - **Headline sub** (800, `clamp(1.5rem, 2.4vw, 2rem)`, 1.06): an h2 that heads a sub-section inside a page — consultancy domain heads, the lead-service head, catalogue group heads. One step for one job.
 - **Quote** (Archivo 600, `clamp(1.25rem, 2.2vw, 1.6rem)`, 1.28, `-0.02em`, 34ch): the pull quote behind a 1px left rule — stated goals and positioning lines on home, about, consultancy and training.
@@ -346,7 +353,8 @@ Illustration is pure line: the hero's process-plant elevation is authored inline
 ### Chips
 - **Filter chip:** Archivo 700 `0.875rem`, paper ground, 1.5px `{colors.line-2}` edge, 4px radius, with a monospace count at 60% opacity. Hover darkens the edge to ink.
 - **State:** `aria-pressed="true"` inverts the chip to solid ink with white type. Selection is a colour inversion, not a border change.
-- **Static tag (credentials, industries):** the same silhouette without interaction — 1px edge, no hover; on navy the edge becomes `{colors.rule-ink}` and type `{colors.on-ink-chip}`.
+- **Static tag (industries):** the same silhouette without interaction — 1px edge, no hover; on navy the edge becomes `{colors.rule-ink}` and type `{colors.on-ink-chip}`.
+- **Credential mark (`.cred-logos`):** the awarding bodies are shown as artwork, not set as type. Each logo ships as a PNG already matted on white and optically normalised to a common ~74px ink height, so six different aspect ratios read as one row. Rendered at `height: clamp(48px, 5vw, 64px)`, `width: auto`, 4px radius, and a single `rgba(14,31,56,.12)` hairline that defines the white tile on navy and on paper alike. The row sits beside its uppercase label on the hero rule and repeats on About.
 
 ### Cards / Containers
 - **Corner Style:** 4px, or square where the block is a band rather than a card.
