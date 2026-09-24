@@ -714,8 +714,18 @@ strong{ font-weight:600; }
   .chip{ flex:1 1 auto; text-align:center; padding:.6rem .5rem; }
 }
 
+/* WhatsApp chat button: sits under the mobile nav (90), scrim (110) and enquiry panel (120). */
+.wa-float{
+  position:fixed; right:clamp(1rem,3vw,1.75rem); bottom:clamp(1rem,3vw,1.75rem); z-index:80;
+  width:56px; height:56px; border-radius:50%; display:grid; place-items:center;
+  background:#25D366; color:#fff; box-shadow:0 6px 20px rgba(14,31,56,.28);
+  transition:transform .2s var(--ease), box-shadow .2s var(--ease);
+}
+.wa-float:hover{ transform:translateY(-2px); box-shadow:0 10px 26px rgba(14,31,56,.34); }
+.wa-float:focus-visible{ outline:3px solid var(--ink); outline-offset:3px; }
+
 @media print{
-  .site-header,.filters,.basket,.basket__scrim,.cta,.nav-toggle{ display:none !important; }
+  .site-header,.filters,.basket,.basket__scrim,.cta,.nav-toggle,.wa-float{ display:none !important; }
   body{ font-size:11pt; }
   .section--ink,.page-head,.hero{ background:#fff !important; color:#000 !important; }
   .page-head h1,.hero h1,.section--ink h2,.section--ink h3{ color:#000 !important; }
