@@ -333,7 +333,6 @@ strong{ font-weight:600; }
 @media (min-width:1060px){ .cat-list.cat-list--2{ grid-template-columns:repeat(2,1fr); } }
 .cat-group__head h3{ font-size:clamp(1.25rem,2vw,1.5rem); margin:0; }
 .page-head--heart::before{ background:radial-gradient(100% 120% at 88% 0%, rgba(184,40,90,.34), transparent 60%); }
-.track__tag--ink{ display:inline-block; margin-bottom:1rem; color:#fff; background:rgba(255,255,255,.12); }
 .track__tag{
   align-self:flex-start; margin-bottom:.6rem; padding:.2rem .6rem; border-radius:999px;
   font-family:var(--display); font-weight:700; font-size:.75rem; letter-spacing:.04em;
