@@ -73,7 +73,7 @@
     var slot = $('.n', basketBtn);
     if (slot) slot.textContent = String(n);
     basketBtn.setAttribute('aria-label', n === 1 ? '1 programme on your enquiry list' : n + ' programmes on your enquiry list');
-    if (n === 0 && document.body.getAttribute('data-page') !== 'training') basketBtn.hidden = true;
+    if (n === 0 && !basket) basketBtn.hidden = true;
     else basketBtn.hidden = false;
   }
 
@@ -182,6 +182,7 @@
     var chips = $$('.chip');
     var groups = $$('.cat-group');
     var track = 'all';
+    var total = $$('.prog').length;
 
     var apply = function () {
       var q = search.value.trim().toLowerCase();
@@ -200,7 +201,7 @@
       if (count) {
         count.innerHTML = shown === 0
           ? 'No programmes match that search.'
-          : 'Showing <b>' + shown + '</b> of <b>108</b> programmes.';
+          : 'Showing <b>' + shown + '</b> of <b>' + total + '</b> programmes.';
       }
       if (empty) empty.hidden = shown !== 0;
       if (clear) clear.classList.toggle('is-on', search.value !== '');
@@ -227,6 +228,10 @@
   /* ---------- contact form ---------- */
   var form = $('#enquiry-form');
   if (form) {
+    // ?type=wellness arrives from the Healthy Living page.
+    var type = $('#f-type');
+    if (type && /[?&]type=wellness/.test(window.location.search)) type.value = 'Heart of Healthy Living (wellness programme)';
+
     var programmes = $('#f-programmes');
     if (programmes) {
       var picked = read();
@@ -251,7 +256,7 @@
 
       var get = function (id) { var el = $('#' + id); return el ? el.value.trim() : ''; };
       var body = [
-        'Organisation: ' + get('f-company'),
+        'Organisation: ' + (get('f-company') || 'Individual'),
         'Contact: ' + get('f-name'),
         'Role: ' + get('f-role'),
         'Email: ' + get('f-email'),
@@ -269,7 +274,7 @@
       ].join('\n');
 
       var to = form.getAttribute('data-mailto');
-      var subject = 'Enquiry from ' + (get('f-company') || 'website') + ' — ' + (get('f-type') || 'QHSE');
+      var subject = 'Enquiry from ' + (get('f-company') || get('f-name') || 'website') + ' — ' + (get('f-type') || 'QHSE');
       window.location.href = 'mailto:' + to + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
 
       var status = $('#form-status');

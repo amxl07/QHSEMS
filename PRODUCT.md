@@ -10,6 +10,8 @@ web
 
 Primary: corporate and project decision-makers who buy HSE capability — HSE managers and directors, project/construction managers, plant and operations managers, contractor HSE leads, and procurement/tender teams at petrochemical, oil & gas, heavy chemical and other manufacturing, construction, commissioning, energy, warehousing and healthcare organisations. Their situation: a live project, an audit finding, a tender requirement, a regulator or client HSE clause, or an incident — they need a competent partner who can produce the system, the documentation and the trained people, and who can start on site.
 
+Wellness audience (converts): members of the public, families, community groups, schools and employers enquiring about Heart of Healthy Living. The enquiry form treats organisation as optional for them.
+
 Secondary (browse, do not convert): the workforce those clients send to training — supervisors, operators, drivers, riggers, technicians, welders, electricians — and individual HSE officers researching the provider before a corporate booking.
 
 ## Product Purpose
@@ -28,12 +30,13 @@ Delivery happens in the client's world, not ours: client sites, plants, projects
 
 ## Capabilities and Constraints
 
-Four service lines, as stated in the company profile:
+Five service lines (the first four as stated in the company profile; the fifth added 2026-09-24):
 
 1. **QHSE Consultancy & Management System Solutions** — six domains: HSE Management System & Documentation; Risk Management & Operational Safety; Emergency, Rescue & Crisis Management; Construction, Project & Contractor HSE; Incident Management; HSE Culture & Performance Improvement; Environmental & Chemical Safety.
 2. **Corporate QHSE Training & Seminars** — ~32 instructor-led programmes for management, supervisors, employees and safety professionals.
 3. **Project QHSE Training & Seminars** — ~53 site-based programmes for construction, oil & gas, industrial, maintenance and infrastructure environments.
 4. **Craft & Competency Training** — ~23 competency-based programmes for operators, drivers, technicians, riggers, welders, electricians and supervisors.
+5. **Heart of Healthy Living — Lifestyle, Motivation & Wellness Programmes** — 12 programmes (WEL-01 to WEL-12), open to everyone, not only organisations: individuals, families, communities, schools and workplaces. Delivered as open public workshops, group sessions on request, workplace wellness and online sessions. Fees are not stated on the site. Lives on `wellness.html` and as the fourth group in the training catalogue.
 
 Training approach: Theory → Practical → Demonstration → Case Studies → Scenario-Based Exercises → Competency Assessment, customised to client requirements, project activities, workforce competency, risk profile, applicable legislation, international standards, client HSE requirements and industry best practice.
 
