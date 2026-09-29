@@ -155,7 +155,8 @@ textarea. Nothing leaves the browser until they send the enquiry.
   Open Graph / Twitter tags and JSON-LD (business details on the home page, breadcrumbs elsewhere).
 - Business details in the home page JSON-LD must match the footer and contact page. Change both together.
 - `sitemap.xml` lists the six pages; update `lastmod` when a page changes materially.
-- `vercel.json` sends `qhsems.vercel.app` to the domain and marks the `.md` files `noindex`.
+- `vercel.json` marks the `.md` files `noindex`. `qhsems.vercel.app` is the pre-production
+  preview domain (behind Vercel Authentication), so it is deliberately not redirected.
 
 ## Browser support
 
