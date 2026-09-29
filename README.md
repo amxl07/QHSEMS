@@ -144,10 +144,18 @@ textarea. Nothing leaves the browser until they send the enquiry.
 
 - [ ] Replace the four placeholders above
 - [ ] Confirm the credentials strip wording is accurate
-- [ ] Add a real `og:image` (1200×630) and `<meta property="og:url">` per page
-- [ ] Add `sitemap.xml` and `robots.txt` once the domain is known
+- [x] Add a real `og:image` (1200×630) and `<meta property="og:url">` per page
+- [x] Add `sitemap.xml` and `robots.txt` once the domain is known (www.qhsemsconsultancy.com)
 - [ ] Add Google Business / LinkedIn links to the footer if they exist
 - [ ] Check the phone number dials correctly on a real handset
+
+## SEO
+
+- Canonical domain: `https://www.qhsemsconsultancy.com/`. Every page has a canonical link,
+  Open Graph / Twitter tags and JSON-LD (business details on the home page, breadcrumbs elsewhere).
+- Business details in the home page JSON-LD must match the footer and contact page. Change both together.
+- `sitemap.xml` lists the six pages; update `lastmod` when a page changes materially.
+- `vercel.json` sends `qhsems.vercel.app` to the domain and marks the `.md` files `noindex`.
 
 ## Browser support
 
