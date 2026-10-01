@@ -5,10 +5,12 @@ No build step, no framework, no dependencies. Open `index.html` or upload the fo
 
 ```
 index.html          Home
-about.html          Who we are, vision & mission, seven-stage approach, six principles
-consultancy.html    Service 1 — 75 capabilities across seven domains
-training.html       Services 2–4 — the full 108-programme catalogue, searchable
-contact.html        Enquiry form
+about.html          Who we are, vision/mission/values/promise, seven-stage approach, principles
+consultancy.html    Seven service cards, then all 75 capabilities across seven domains
+training.html       Programme cards, five-step approach, full 120-programme catalogue (searchable)
+wellness.html       Healthy Living & Wellbeing: six focus areas, 12 programmes, ways to take part
+industries.html     Eight industries we serve, with photo cards
+contact.html        How we can help, contact details, enquiry form
 assets/css/site.css Design system (one file)
 assets/js/site.js   Nav, scroll reveal, catalogue filter, enquiry list, form (one file)
 assets/img/         qhsems-logo-header.jpg  header/print lockup, rebuilt from the 6400x2040
@@ -77,24 +79,25 @@ the `.footer-word` / `.footer-legal` / `.footer-pillars` block in each page's fo
 
 ## 4. Photography
 
-The site ships with **no stock photography** — only the brand logo and an authored
-line-drawing of a process plant in the hero. That is deliberate: generic hard-hat stock
-would weaken a tender-facing site, and no verified, licence-clean industrial photography
-was available to source here.
+Layout and wording follow the client's reference sheet (supplied 2026-09-30): a photo hero on
+every page, icon cards, an Industries page, and green calls to action.
 
-When you have real photographs of delivery — classroom sessions, site inductions,
-practical rescue or rigging exercises, competency assessments — these are the slots
-worth filling, in priority order:
+| File(s) | Source | Licence |
+|---|---|---|
+| `hero-*.jpg`, `band-training.jpg`, `ind-construction/petrochemicals/manufacturing/commissioning.jpg`, `strip-2/4/6.jpg`, `culture-*.jpg`, `success-goal.jpg`, `healthy-living-collage.jpg`, `training-delivery.jpg`, `consultancy-engagement.jpg` | Supplied by the client | Client's responsibility |
+| `ind-oil-gas.jpg` | [Wikimedia: Oil_Platform_Crew_Transfer.jpg](https://commons.wikimedia.org/wiki/File:Oil_Platform_Crew_Transfer.jpg) | CC0 |
+| `band-platform-lights.jpg`, `strip-1.jpg` | [Wikimedia: Holstein_at_Dusk.jpg](https://commons.wikimedia.org/wiki/File:Holstein_at_Dusk.jpg) | CC0 |
+| `band-offshore-dusk.jpg` | [Wikimedia: An_oil_rig_offshore_Vungtau.jpg](https://commons.wikimedia.org/wiki/File:An_oil_rig_offshore_Vungtau.jpg) | Public domain |
+| `band-energy.jpg`, `ind-energy.jpg`, `strip-3.jpg` | [Wikimedia: NesjavellirPowerPlant_edit2.jpg](https://commons.wikimedia.org/wiki/File:NesjavellirPowerPlant_edit2.jpg) | Public domain |
+| `ind-warehousing.jpg`, `strip-5.jpg` | [Wikimedia: 649th_Munitions_Squadron_121030-F-RN544-010.jpg](https://commons.wikimedia.org/wiki/File:649th_Munitions_Squadron_121030-F-RN544-010.jpg) | Public domain |
+| `ind-healthcare.jpg` | [Wikimedia: Hospital operating or image examination room (LCCN2011635602)](https://commons.wikimedia.org/wiki/File:Hospital_operating_or_image_examination_room_LCCN2011635602.tif) | Public domain |
 
-1. **Home hero, right column** — replace the `<svg>` inside `.hero__art` with
-   `<img src="assets/img/hero.jpg" alt="…">`. Wants a wide, calm industrial scene.
-2. **Home, between "Four service lines" and "Approach"** — a full-bleed band of a
-   practical session.
-3. **Training page, above "How every programme is delivered"** — a practical
-   demonstration or assessment in progress.
-4. **About page, beside "Who we are"** — instructors or a site walk.
+No credit line is required for CC0 or public-domain images. Several client-supplied images
+look AI-generated or stock; confirm the client holds the rights before launch.
 
-Use real photographs only, at ≥1600px wide, and compress to JPEG (~150–250 KB).
+Real photographs of QHSEMS delivery (classroom sessions, site inductions, drills, competency
+assessments) should replace the stand-ins as they become available: same file names, JPEG,
+at least 1600px wide.
 
 ## 5. Copy corrections made to the company-profile text
 
@@ -154,7 +157,7 @@ textarea. Nothing leaves the browser until they send the enquiry.
 - Canonical domain: `https://www.qhsemsconsultancy.com/`. Every page has a canonical link,
   Open Graph / Twitter tags and JSON-LD (business details on the home page, breadcrumbs elsewhere).
 - Business details in the home page JSON-LD must match the footer and contact page. Change both together.
-- `sitemap.xml` lists the six pages; update `lastmod` when a page changes materially.
+- `sitemap.xml` lists the seven pages; update `lastmod` when a page changes materially.
 - `vercel.json` marks the `.md` files `noindex`. `qhsems.vercel.app` is the pre-production
   preview domain (behind Vercel Authentication), so it is deliberately not redirected.
 

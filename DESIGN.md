@@ -204,6 +204,23 @@ components:
 
 # Design System: QHSEMS Consultancy, Solutions & Training LLP
 
+## 2026-10 revision (client reference sheet)
+
+This revision supersedes the parts of this document that conflict with it:
+
+- **Action colour is green, not crimson.** `--action: #1B8238` (white text passes WCAG AA),
+  hover `--action-dk: #146B2D`, and `--green-on-ink: #8EDB6A` for accents on navy. Primary buttons,
+  current-nav underline, focus ring, quote rule and chain arrows use it. Crimson stays as a
+  brand/logo hue (record numeral, error states).
+- **Photography is in.** Every page opens with a photo hero (`.phero`): navy text panel on the
+  left fading into a photo on the right. Full-width photo bands (`.pband`) close pages.
+- **Cards are rounded.** Icon cards, industry cards, step cards and forms use 12-14px radius and
+  a pillar tint (`.t-green/.t-blue/.t-orange/.t-purple/.t-pink/.t-teal`). Buttons use 8px.
+  Document elements (checklists, catalogue rows, chips) keep the 4px radius.
+- **The CTA band is navy** with a green primary button, not crimson.
+- **Nav** has seven items (Industries added) and collapses to the menu button below 1360px.
+
+
 ## Overview
 
 **Creative North Star: "The Site-Office Document"**

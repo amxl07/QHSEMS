@@ -52,7 +52,9 @@ Undecided / not supplied: working hours, social profiles, team names and bios, c
 - Tagline (binding, appears in the logo): **SAFE PEOPLE • STRONG SYSTEMS • SUSTAINABLE FUTURE**.
 - Logo lockup supplied at `PHOTO-2026-09-03-10-57-01.jpg` and at 6400×2040 inside the company-profile deck. Its four pillars — HEALTH (green), SAFETY (blue), ENVIRONMENT (orange), TRAINING (purple) — are a named part of the identity. Wordmark letters carry crimson/green/blue/orange/dark-green.
 - Reference site the user pointed at as a category benchmark: https://osheco.com (a training provider). It is context, not a template.
-- Voice: plain, technical, practitioner-to-practitioner. No hype, no safety clichés, no stock-photo optimism.
+- Voice: plain, practical and confident, following the client's reference sheet (2026-09-30): short outcome-led headlines ("Your Success Is Our Goal.", "QHSE Systems That Work in the Real World.", "Build Knowledge. Develop Skills. Improve Performance."), with plain supporting sentences. No hype beyond what the client wrote.
+- Headline promise (client reference): **Your Success Is Our Goal.** The logo tagline above still stands.
+- Market: organisations across **all of India** (the site says "anywhere in India" / "across India"); the Palakkad office is the base, not the boundary.
 
 ## Evidence on Hand
 
