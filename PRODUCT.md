@@ -59,9 +59,10 @@ Undecided / not supplied: working hours, social profiles, team names and bios, c
 ## Evidence on Hand
 
 Real and usable:
-- 30+ years of practical QHSE experience.
-- 110,000+ professionals trained worldwide.
-- 80,000,000+ hours of training delivered.
+- 23+ years of practical QHSE experience.
+- 150,000+ professionals trained worldwide.
+- 90,000+ hours of training delivered.
+  (Revised by the client 2026-10-01, replacing 30+ / 110,000+ / 80,000,000+.)
 - Industries served (revised 2026-09-16): petrochemicals, oil & gas, heavy chemical and other manufacturing, construction, commissioning, energy, warehousing, healthcare and other high-risk industries. Warehousing is new; "start-up energy" is now simply energy.
 - Full verbatim service, training and competency catalogues from the company profile — 75 consultancy capabilities and 108 training programmes, 183 in total — the deepest real proof asset available, and it should be shown, not summarised away.
 - Stated vision, mission, seven-stage approach and six core principles.

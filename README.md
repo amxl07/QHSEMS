@@ -17,6 +17,9 @@ assets/img/         qhsems-logo-header.jpg  header/print lockup, rebuilt from th
                     original in the deck (emblem + wordmark + subtitle, stray mark removed)
                     qhsems-emblem.png       the emblem alone, transparent background
                     favicon.png             64px, from the emblem
+assets/img/qhsems-business-card.png     2100x1200 card artwork (download)
+                    qhsems-business-card-web.jpg        1400x800, shown in the modal
+assets/qhsems-suresh-kumar-sekaran.vcf  vCard for "Save to contacts"
 PRODUCT.md          Confirmed product facts this site is built on
 DESIGN.md           The design system as built
 ```
@@ -160,6 +163,15 @@ textarea. Nothing leaves the browser until they send the enquiry.
 - `sitemap.xml` lists the seven pages; update `lastmod` when a page changes materially.
 - `vercel.json` marks the `.md` files `noindex`. `qhsems.vercel.app` is the pre-production
   preview domain (behind Vercel Authentication), so it is deliberately not redirected.
+
+## Business card
+
+The card is rendered from HTML rather than hand-drawn, so it stays in sync with the brand.
+To change it: recreate `_card.html` at 1050x600 CSS px in the project root, screenshot it with
+headless Chrome at `--force-device-scale-factor=2` to get 2100x1200, save as
+`assets/img/qhsems-business-card.png`, resize to 1400x800 for
+`assets/img/qhsems-business-card-web.jpg`, then delete `_card.html`.
+Keep `assets/qhsems-suresh-kumar-sekaran.vcf` in step with any contact change.
 
 ## Browser support
 

@@ -204,6 +204,15 @@ components:
 
 # Design System: QHSEMS Consultancy, Solutions & Training LLP
 
+## 2026-10-09 revision (client reference, second round)
+
+- **Track record** reads 23+ / 150K+ / 90K+ with a bold `.record__label` line above the detail.
+- **`.qband`** is the home "Effective QHSE" band: a navy-to-green panel with a diagonal
+  `clip-path` edge over a photo on the right, plus a translucent `.qcard` quote. Below it,
+  `.pillars` shows five colour-coded pillars beside a green `.pillars-aside` panel.
+- **`.card-trigger` / `.cardm`** are the contact page's business-card button and modal
+  (Esc to close, scrim click, focus returns to the trigger, Tab stays inside).
+
 ## 2026-10 revision (client reference sheet)
 
 This revision supersedes the parts of this document that conflict with it:

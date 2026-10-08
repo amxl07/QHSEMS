@@ -294,6 +294,49 @@
 
   repaint();
 
+  /* ---------- business card modal ---------- */
+  var cardModal = $('#card-modal');
+  var cardScrim = $('#card-scrim');
+  var cardOpenBtn = $('#card-open');
+  if (cardModal && cardOpenBtn) {
+    var cardLastFocus = null;
+
+    var cardSet = function (open) {
+      cardModal.hidden = !open;
+      if (cardScrim) cardScrim.hidden = !open;
+      document.body.style.overflow = open ? 'hidden' : '';
+      if (open) {
+        cardLastFocus = document.activeElement;
+        var close = $('#card-close');
+        if (close) close.focus();
+        document.addEventListener('keydown', cardKeys);
+      } else {
+        document.removeEventListener('keydown', cardKeys);
+        // Fall back to the trigger when the opener was not a focusable element.
+        var back = (cardLastFocus && cardLastFocus !== document.body && cardLastFocus.focus)
+          ? cardLastFocus : cardOpenBtn;
+        back.focus();
+      }
+    };
+
+    // Esc closes; Tab stays inside the dialog.
+    var cardKeys = function (e) {
+      if (e.key === 'Escape') { cardSet(false); return; }
+      if (e.key !== 'Tab') return;
+      var items = $$('button, a[href]', cardModal).filter(function (el) { return el.offsetParent !== null; });
+      if (!items.length) return;
+      var first = items[0], last = items[items.length - 1];
+      if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+      else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+    };
+
+    cardOpenBtn.addEventListener('click', function () { cardSet(true); });
+    var cardCloseBtn = $('#card-close');
+    if (cardCloseBtn) cardCloseBtn.addEventListener('click', function () { cardSet(false); });
+    if (cardScrim) cardScrim.addEventListener('click', function () { cardSet(false); });
+    cardModal.addEventListener('click', function (e) { if (e.target === cardModal) cardSet(false); });
+  }
+
   /* ---------- current year ---------- */
   $$('[data-year]').forEach(function (el) { el.textContent = String(new Date().getFullYear()); });
 })();

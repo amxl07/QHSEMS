@@ -237,6 +237,11 @@ strong{ font-weight:600; }
 .record__item:nth-child(2) .record__n{ color:var(--safety); }
 .record__item:nth-child(3) .record__n{ color:var(--health); }
 .record__item p{ margin:0; font-size:.9375rem; color:var(--muted); max-width:34ch; }
+.record__label{
+  font-family:var(--display); font-weight:700; font-size:1.0625rem;
+  color:var(--ink) !important; letter-spacing:-.01em; margin-bottom:.35rem !important;
+}
+.section--ink .record__label{ color:#fff !important; }
 .section--ink .record{ border-top-color:rgba(255,255,255,.5); }
 .section--ink .record__item{ border-color:var(--rule-ink); }
 .section--ink .record__item p{ color:var(--on-ink-mut); }
@@ -834,7 +839,160 @@ a.icard:hover{ transform:translateY(-3px); box-shadow:var(--shadow-md); }
 .track h3{ font-size:1.125rem; margin-bottom:.4rem; }
 .cat-group,#catalogue{ scroll-margin-top:calc(var(--header-h) + 5.5rem); }
 
-/* WhatsApp chat button: sits under the mobile nav (90), scrim (110) and enquiry panel (120). */
+/* ---------- qband: "Effective QHSE is more than procedures" (client reference 2026-10-01) ---------- */
+.qband{ position:relative; overflow:hidden; isolation:isolate; background:var(--ink); color:#fff; }
+.qband__img{
+  position:absolute; top:0; right:0; bottom:0; z-index:-3;
+  width:62%; height:100%; object-fit:cover; object-position:center 55%;
+}
+/* darkens the photo just enough for the quote card to sit on it */
+.qband::after{
+  content:""; position:absolute; inset:0; z-index:-2; pointer-events:none;
+  background:linear-gradient(90deg, rgba(14,31,56,.75) 38%, rgba(14,31,56,.48) 62%, rgba(14,31,56,.3) 100%);
+}
+/* the navy-to-green panel with the diagonal edge */
+.qband::before{
+  content:""; position:absolute; inset:0 auto 0 0; z-index:-1; width:64%;
+  background:linear-gradient(118deg, var(--ink) 0%, #103A2B 48%, #1B8238 100%);
+  clip-path:polygon(0 0, 100% 0, 74% 100%, 0 100%);
+}
+.qband__grid{
+  position:relative; display:grid; gap:clamp(1.75rem,3.5vw,3rem);
+  padding-block:clamp(3rem,6vw,4.75rem); align-items:center;
+}
+@media (min-width:980px){ .qband__grid{ grid-template-columns:1.15fr .85fr; } }
+.qband__eyebrow{
+  display:flex; align-items:center; gap:.9rem; margin-bottom:1rem;
+  font-family:var(--display); font-weight:700; font-size:.8125rem;
+  letter-spacing:.18em; text-transform:uppercase; color:#BFE8C4;
+}
+.qband__eyebrow::after{ content:""; flex:1 1 4rem; max-width:9rem; height:1px; background:var(--green-on-ink); }
+.qband h2{ color:#fff; font-size:clamp(2.1rem,3.9vw,3.25rem); line-height:1.06; margin-bottom:.35em; }
+.qband h2 em{ font-style:normal; color:var(--green-on-ink); }
+.qband__tag{
+  font-family:var(--display); font-weight:700;
+  font-size:clamp(1.1rem,1.85vw,1.5rem); line-height:1.3; letter-spacing:-.015em;
+  color:#fff; margin-bottom:1.1rem; padding-bottom:1.1rem; max-width:40ch;
+  border-bottom:2px solid rgba(142,219,106,.45);
+}
+.qband__tag .is-green{ color:var(--green-on-ink); }
+.qband__tag .is-red{ color:#FF8A9B; }
+.qband__lead{ color:#D7E6F3; font-size:clamp(1rem,1.3vw,1.125rem); line-height:1.6; max-width:50ch; margin-bottom:1.75rem; }
+
+.qcard{
+  border-left:3px solid var(--green-on-ink);
+  padding:1.4rem 1.5rem; border-radius:0 12px 12px 0;
+  background:rgba(8,20,38,.72); backdrop-filter:blur(4px);
+}
+.qcard__icon{ display:block; width:40px; height:40px; color:var(--green-on-ink); margin-bottom:.9rem; }
+.qcard__icon svg{ width:40px; height:40px; }
+.qcard p{
+  margin:0; color:#fff; font-family:var(--display); font-weight:600;
+  font-size:clamp(1.0625rem,1.5vw,1.25rem); line-height:1.42; letter-spacing:-.01em; max-width:30ch;
+}
+.qcard em{ font-style:normal; color:var(--green-on-ink); }
+@media (max-width:979px){
+  .qband__img{ width:100%; }
+  .qband::before{ width:100%; clip-path:none; opacity:.93; }
+  .qband::after{ background:rgba(14,31,56,.5); }
+}
+
+/* ---------- five pillars ---------- */
+.pillars-row{ display:grid; gap:clamp(1.5rem,3vw,2.5rem); align-items:center; }
+@media (min-width:1100px){ .pillars-row{ grid-template-columns:1.55fr .45fr; } }
+.pillars{
+  display:grid; gap:1rem 0; list-style:none; margin:0; padding:0;
+  grid-template-columns:repeat(auto-fit,minmax(min(100%,8.5rem),1fr));
+}
+.pillar{ margin:0; text-align:center; padding:0 .75rem; position:relative; }
+@media (min-width:560px){
+  .pillar + .pillar::before{ content:""; position:absolute; left:0; top:12%; bottom:12%; width:1px; background:var(--line); }
+}
+.pillar__icon{
+  width:52px; height:52px; margin:0 auto .75rem; border-radius:50%;
+  display:grid; place-items:center; background:var(--c); color:#fff;
+}
+.pillar__icon svg{ width:25px; height:25px; }
+.pillar h3{
+  font-size:.875rem; letter-spacing:.04em; text-transform:uppercase;
+  color:var(--c-ink); margin-bottom:.3rem; line-height:1.25;
+}
+.pillar p{ margin:0; font-size:.8125rem; line-height:1.45; color:var(--muted); }
+.t-red{ --c:#C32B4B; --c-ink:#96143C; --tint:#FCEDF0; }
+
+.pillars-aside{
+  padding:1.5rem 1.6rem; border-radius:14px; color:#fff;
+  background:linear-gradient(135deg,#124B2A 0%,#1B8238 100%);
+}
+.pillars-aside__icon{ display:block; width:28px; height:28px; color:#BFE8C4; margin-bottom:.85rem; }
+.pillars-aside__icon svg{ width:28px; height:28px; }
+.pillars-aside__links{
+  margin:0 0 .85rem; padding-bottom:.85rem; border-bottom:1px solid rgba(255,255,255,.3);
+  font-family:var(--display); font-weight:700; font-size:.9375rem;
+  display:flex; flex-wrap:wrap; gap:.5rem .65rem;
+}
+.pillars-aside__links a{ color:#fff; text-decoration:none; }
+.pillars-aside__links a:hover{ text-decoration:underline; text-underline-offset:3px; }
+.pillars-aside__links span{ color:rgba(255,255,255,.45); }
+.pillars-aside__tag{ margin:0; font-size:.9375rem; line-height:1.45; font-style:italic; color:#DFF3E3; }
+
+/* ---------- business card: trigger + modal ---------- */
+.card-trigger{
+  display:flex; align-items:center; gap:.9rem; width:100%; margin-top:1.5rem;
+  padding:1rem 1.15rem; text-align:left; cursor:pointer;
+  border:1px solid var(--line); border-radius:12px; background:var(--surface);
+  font-family:inherit; color:inherit;
+  transition:border-color .18s var(--ease), background-color .18s var(--ease), transform .18s var(--ease);
+}
+.card-trigger:hover{ border-color:var(--action); background:#fff; transform:translateY(-2px); }
+.card-trigger__ic{
+  flex:0 0 auto; width:44px; height:44px; border-radius:50%;
+  display:grid; place-items:center; background:var(--action); color:#fff;
+}
+.card-trigger__ic svg{ width:22px; height:22px; }
+.card-trigger b{ display:block; font-family:var(--display); font-weight:700; font-size:1rem; }
+.card-trigger small{ display:block; margin-top:.15rem; font-size:.875rem; color:var(--muted); }
+
+.cardm__scrim{
+  position:fixed; inset:0; z-index:130; background:rgba(14,31,56,.62);
+  animation:cardm-fade .2s var(--ease);
+}
+.cardm{
+  position:fixed; inset:0; z-index:131; display:grid; place-items:center;
+  padding:clamp(1rem,4vw,2.5rem); overflow-y:auto;
+}
+.cardm__box{
+  width:min(44rem,100%); background:var(--paper); border-radius:14px;
+  box-shadow:var(--shadow-lg); overflow:hidden; animation:cardm-rise .24s var(--ease);
+}
+@keyframes cardm-fade{ from{ opacity:0 } to{ opacity:1 } }
+@keyframes cardm-rise{ from{ opacity:0; transform:translateY(14px) } to{ opacity:1; transform:none } }
+@media (prefers-reduced-motion: reduce){
+  .cardm__scrim,.cardm__box{ animation:none; }
+}
+.cardm__head{
+  display:flex; align-items:center; gap:1rem;
+  padding:1.1rem 1.35rem; border-bottom:1px solid var(--line);
+}
+.cardm__head h2{ margin:0; flex:1; font-size:1.125rem; }
+.cardm__close{
+  border:none; background:none; cursor:pointer; color:var(--muted);
+  font-size:1.5rem; line-height:1; padding:.1rem .45rem; border-radius:var(--radius);
+}
+.cardm__close:hover{ color:var(--action); }
+.cardm__body{ padding:1.35rem; background:var(--surface); }
+.cardm__body img{
+  width:100%; height:auto; border-radius:10px;
+  box-shadow:var(--shadow-md); border:1px solid var(--line);
+}
+.cardm__foot{
+  display:flex; flex-wrap:wrap; gap:.7rem;
+  padding:1.1rem 1.35rem; border-top:1px solid var(--line);
+}
+.cardm__foot .btn{ flex:1 1 13rem; }
+.cardm__foot .btn svg{ width:18px; height:18px; }
+
+/* WhatsApp chat button: sits under the mobile nav (90), scrim (110), enquiry panel (120) and card modal (130). */
 .wa-float{
   position:fixed; right:clamp(1rem,3vw,1.75rem); bottom:clamp(1rem,3vw,1.75rem); z-index:80;
   width:56px; height:56px; border-radius:50%; display:grid; place-items:center;
