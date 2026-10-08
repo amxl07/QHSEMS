@@ -54,7 +54,7 @@ Undecided / not supplied: working hours, social profiles, team names and bios, c
 - Reference site the user pointed at as a category benchmark: https://osheco.com (a training provider). It is context, not a template.
 - Voice: plain, practical and confident, following the client's reference sheet (2026-09-30): short outcome-led headlines ("Your Success Is Our Goal.", "QHSE Systems That Work in the Real World.", "Build Knowledge. Develop Skills. Improve Performance."), with plain supporting sentences. No hype beyond what the client wrote.
 - Headline promise (client reference): **Your Success Is Our Goal.** The logo tagline above still stands.
-- Market: organisations across **all of India** (the site says "anywhere in India" / "across India"); the Palakkad office is the base, not the boundary.
+- Market: organisations **worldwide** (the site says "worldwide" / "anywhere in the world"); the Palakkad office is the registered base, not the boundary. Re-targeted from India-only on 2026-10-09 at the client's request.
 
 ## Evidence on Hand
 
